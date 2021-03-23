@@ -1,0 +1,9 @@
+-- test.anm
+
+require("dll/main")
+
+data, w, h = obj.getpixeldata()
+
+main.func(data, w, h)
+
+obj.putpixeldata(data)
